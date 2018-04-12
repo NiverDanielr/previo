@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding:0;
+
+}
+
+ header{
+
+ 	background: #0E5CCA;
+ 	height: 100px;
+ 	color: white;
+ 	margin-top: 10px;
+ 	margin-right: 100px;
+ 	margin-left: 100px;
+ }
+
+ .header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+ 
+}
+
+.header h1 {
+  text-align: center;
+  position: relative;
+  top: 30px;
+
+
+
+
+}
+nav{
+
+margin-top:0.5px;
+margin-right: 100px;
+margin-left: 100px;
+
+
+
+}
+nav ul li a{
+	color:white;
+}
+ #c{
+	
+	background: #0E5CCA;
+}
+nav ul form{
+margin-top: 3px;
+margin-left: 860px;
+}
+section{
+	margin-right: 200px;
+	
+}
+
+section img {
+
+  float: right;
+  width: 700px;
+  padding-right: 100px;
+}
+ 
+
+ section form{
+  color:white;
+  margin: auto;
+  margin-left: 100px;
+  width: 30%;
+  max-width: 500%;
+  background: white;
+  padding: 30px;
+  padding-top: 0;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+section form h2{
+  color: white;
+  background: #0E5CCA;
+  margin-top: 10PX;
+  text-align: center;
+  margin-bottom: 20px;
+ 
+}
+
+ section input{
+  display: block;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 20px;
+  }
+  input[type="submit"]{
+  background: linear-gradient(#0E5CCA,#0E5CCA);
+  border:0;
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 0;
+}
+
+input[type="submit"]:hover{
+
+  opacity: 2;
+
+}
+input[type="submit"]:active{
+
+  transform: scale(0.95);
+}
+
+aside{
+  margin-top: 30px;
+  
+}
+
+.ejemplo{
+  margin-top: 10px;
+
+  background: red;
+}
+
+
+
+.letracliente{
+	color: #0E5CCA;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.tituloClinte{
+	background: #0E5CCA;
+	color: white;
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 1px;
+}
+.letraformCliente{
+color: black;
+
+
+}
+.imagenCliente{
+	float: right;
+	margin-top: 40px;
+  width: 500px;
+  padding-right: 100px;
+}
+.hojaVida{
+	background: linear-gradient(#0E5CCA,#0E5CCA);
+}
+.envio h2
+{
+	
+	background: #0E5CCA;
+	color: white;
+
+}
+.envio{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+ footer{
+
+  background: #0E5CCA;
+  height: 50px;
+  color: white;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+footer  .re a{
+	margin-top: 2px;
+	margin-left: 500px;
+	text-align:center;
+	color: white;
+}
+footer .cop{
+	text-align: center;
+
+}
+
+@media (max-width:768px){
+    form{
+      width: 75%;
+    }
+}
+@media (max-width:480px){
+    form{
+      width: 95%;
+    }
+}
